@@ -1,0 +1,10 @@
+node_modules/
+.next/
+public/
+yarn.lock
+next.config.mjs
+tsconfig.json
+next-env.d.ts
+postcss.config.mjs
+*.cjs
+*.mjs
