@@ -1,0 +1,29 @@
+name: 追加機能
+description: 追加機能はこちら
+body:
+  - type: textarea
+    id: background
+    attributes:
+      label: 背景
+      description: なぜこの機能を追加する必要があるのか記載してください
+    validations:
+      required: true
+  - type: textarea
+    id: merit
+    attributes:
+      label: メリット
+      description: 機能を追加することでどのようなメリットがあるのか記載してください
+    validations:
+      required: true
+  - type: textarea
+    id: do
+    attributes:
+      label: やること
+      description: このissueで取り組むことを記載してください
+    validations:
+      required: true
+  - type: textarea
+    id: supplement
+    attributes:
+      label: 補足
+      description: 補足情報があれば記載してください
