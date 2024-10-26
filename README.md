@@ -6,11 +6,16 @@
 
 10/26 ~ 作成開始
 
+#### ci/cd
+
+- ciにはgithub actionsを使用します。
+- デプロイはしません。
+
 #### 学習予定
 
 本アプリでは以下の内容について学習します。
 
-- TailWind CSS
+- Tailwind CSS
 - shadcn/ui
 - vitest
 - Redux
