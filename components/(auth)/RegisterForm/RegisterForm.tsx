@@ -87,7 +87,9 @@ const RegisterForm = () => {
               register={register('confirmedPassword')}
               error={errors.confirmedPassword?.message}
             />
-            <Button className="mt-4 mb-4">登録</Button>
+            <Button className="mt-4 mb-4" disabled={isSubmitting}>
+              登録
+            </Button>
           </TabsContent>
         </form>
       </Tabs>
